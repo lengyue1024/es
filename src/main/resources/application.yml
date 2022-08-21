@@ -1,0 +1,10 @@
+server:
+  # 端口
+  port: 8001
+  servlet:
+    encoding:
+      force: true #解决静态资源乱码
+      
+spring:
+  elasticsearch:
+    uris: 192.168.124.10:9200
